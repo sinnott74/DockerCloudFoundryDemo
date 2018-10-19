@@ -6,4 +6,4 @@ applications:
     routes:
       - route: DockerCloudFoundryDemo.eu-gb.mybluemix.net
     docker:
-      image: sinnott74/dockercloudfoundrydemo:0.0.1
+      image: sinnott74/dockercloudfoundrydemo
