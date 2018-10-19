@@ -1,0 +1,9 @@
+applications:
+  - name: DockerCloudFoundryDemo
+    memory: 32M
+    instances: 1
+    disk_quota: 32M
+    routes:
+      - route: DockerCloudFoundryDemo.eu-gb.mybluemix.net
+    docker:
+      image: sinnott74/dockercloudfoundrydemo:0.0.1
